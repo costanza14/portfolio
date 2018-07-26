@@ -80,31 +80,7 @@ width: auto;
   margin-left: auto;
 
 }
-.research-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../pdp/img/testing2.png);
-    opacity: 1.0;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
 
-}
-
-.solution-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../pdp/img/solbg.png);
-    opacity: 1.0;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
-
-}
 
 .container-phones{
 
