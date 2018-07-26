@@ -83,7 +83,7 @@ width: auto;
 .research-img{
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url(../PDP/img/testing2.png);
+    background-image: url(../pdp/img/testing2.png);
     opacity: 1.0;
     background-position: center center;
     -webkit-background-size: cover;
@@ -96,7 +96,7 @@ width: auto;
 .solution-img{
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url(../PDP/img/solbg.png);
+    background-image: url(../pdp/img/solbg.png);
     opacity: 1.0;
     background-position: center center;
     -webkit-background-size: cover;
