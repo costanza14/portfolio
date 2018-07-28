@@ -141,7 +141,13 @@ width: auto;
 
 .font-weight-500{
 
-    font-weight: 500;
+    font-weight: 500 !important;
+    font-family: Roboto !important;
+}
+
+.font-weight-300 {
+    font-weight: 300 !important;
+    font-family: Roboto !important;
 }
 
 .text-dark-grey{
@@ -149,9 +155,13 @@ width: auto;
 }
 .text-dark-blue{
 
-    color: #FCE181;
+    color: #026670;
 }
 
+.text-gold{
+
+    color: #FCE181;
+}
 .text-extra-small{
     font-size: 11px;
     color: #000;
@@ -169,6 +179,12 @@ width: auto;
     padding: 0;
 }
 
+.media-heading{
+    font-weight: 500 !important;
+    font-family: Roboto !important;
+    text-transform: uppercase;
+
+}
 
 .list-style-6 li {
     position: relative;
@@ -237,6 +253,15 @@ li .text-extra-small {
 
 .text-medium-gray {
     color: #7b7b7b;
+}
+
+.text-gold{
+
+    color:#FCE181;
+}
+.icon-large{
+
+    font-size: 55px;
 }
 .display-table-cell {
     display: table-cell !important;
