@@ -150,6 +150,11 @@ width: auto;
     font-family: Roboto !important;
 }
 
+.font-weight-700 {
+    font-weight: 700 !important;
+    font-family: Roboto !important;
+}
+
 .text-dark-grey{
     color: #7b7b7b
 }
