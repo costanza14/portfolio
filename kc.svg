@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="47px" height="55px" viewBox="0 0 47 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="78px" height="55px" viewBox="0 0 78 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Artboard 4</title>
+    <title>Artboard 1</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Artboard-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Roboto-Bold, Roboto" font-size="45.5294118" font-weight="bold">
-        <text id="K" fill="#F5F5F5">
-            <tspan x="-2" y="33">K</tspan>
-        </text>
-        <text id="C" transform="translate(33.000000, 40.000000) rotate(180.000000) translate(-33.000000, -40.000000) " fill="#F5F5F5">
-            <tspan x="18" y="58">C</tspan>
-        </text>
+    <g id="Artboard-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Fill-1" fill="#9FEDD7" points="47.2203 0 26.6573 23.608 26.6573 27.475 26.6573 31.343 47.2203 54.95 70.9073 54.95 77.9163 47.941 49.9623 47.941 33.7353 27.475 49.9623 7.009 77.9163 7.009 70.9073 0"></polygon>
+        <polygon id="Fill-2" fill="#FCE181" points="7.0092 0 0.0002 7.009 16.0702 7.009 16.0702 47.941 0.0002 47.941 7.0092 54.95 16.0702 54.95 16.9852 54.95 23.3822 54.95 23.3822 0"></polygon>
     </g>
 </svg>
