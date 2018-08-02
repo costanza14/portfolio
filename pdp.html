@@ -124,6 +124,23 @@
   </div>
 </section>
 
+<section class="bg-white text-dark">
+  <div class="container">
+    <div class="row">
+      <div class="span wow fadeInRight" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;">
+            <h6 class="ps-1">Challenge </h6>
+            <p class="text-dark"> The challenge was to bring Arrow.com into a typical, streamlined, eCommerce buying experience. From the outside looking in it may seem like a simple task. However, understanding arrow.com’s systems and backend data feeds, along with who owned them was one of, if not, the largest obstacles to overcome. A key objective was to understand where the data was coming and how we could clean it up in order to have a performant and ideal experience under the defined requirements. </p>
+
+            <p>Unlike our direct competitors who have a single domestic warehouse, Arrow is a global company with warehouse distribution centers overseas. With the business requiring all inventories be presented on the frontend, this brought on a large challenge when trying to create an intuitive and efficient purchasing experience due to pricing and part data differences. My ultimate goal in a multi-phase approach to updating the purchasing journey is to one day align all inventories to a single global pricing structure and ship fastest/cheapest based on geo-location.</p>
+      </div>
+      <div class="span wow fadeInRight" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+            <h6 class="ps-1">Insights </h6>
+            <p class="text-dark"> A behavioral tendency I found interesting was around half of the tested users rendered their attention to the product details/spec table to find answers regarding part specific purchasing information. This could be due to prior expectations, learned behavior from our competitors, and/or unfamiliarity with Arrow.com. Though, the biggest caveat to the user making a purchasing decision relies heavily on if the part is in stock with the desired amount and immediacy. After the second phase of single buying options was deployed we saw an increase in add to cart, higher conversion rate, and lower abandonment rate and time on page.  </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!---What is-->
 <section class="wow fadeIn bg-dark-grey" style="visibility: visible; animation-name: fadeIn;">
             <div class="container">
@@ -135,7 +152,7 @@
                     <div class="col-md-8 col-sm-6 col-xs-12 padding-30px-right sm-text-center xs-margin-30px-bottom wow fadeIn last-paragraph-no-margin" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
                     <div class="text-white content-heading col-md-12 center-col margin-5px-top sm-text-center xs-no-padding-lr"><h3>What is?</h3>
                     <hr align="left" class="line-dark text-left my-4">
-                    <p class="text-faded mb-4">Three different buying journeys are presented to the user: In-stock (Buy), No-Stock (backorder), and Request Quote (call for price), all of which are separate inventories displaying their own data, individual experiences, and design hierarchy. Currently, arrow.com presents all potential buying options, and SKU’s to the frontend based on the data coming from the inventory feeds, which is creating confusion and large abandonment rate.</p>
+                    <p class="text-faded mb-4">In this particular example, three different buying journeys are presented to the user: In-stock (Buy), No-Stock (backorder), and Request Quote (call for price), all of which are separate inventories displaying their own data, individual experiences, and design hierarchy. Currently, arrow.com presents all potential buying options, and SKU’s to the frontend based on the data coming from the inventory feeds, which is creating confusion, large abandonment rate, and an overall bad experience. </p>
                     <p class="text-faded mb-4">To further confusion, “backorder,” and “call for price” CTA's are the same experience, a form sent to customer service. The process is lengthy and convolute.</p>
                 </div>
             </div>
@@ -162,8 +179,8 @@
     <div class="row">
       <div class="span">
         <h3 class="ps-1"> RESEARCH FINDINGS </h3>
-        <p class="text-dark"> The research phase began with a competitive analysis of other eCommerce component distribution sites. The eCommerce sites that were analyzed (Digi-Key, Mouser, Avnet, Octopart, Newark Element 14 and Premier Farnell ) were all similar in theme and content, so it was essential to understand any differences in the user experience when purchasing and sourcing components. Analyzing, then synthesizing the data helped me understand the ideal approach that Arrow.com should work towards in an Agile iterative implementation.</p>
-        <p class="text-dark"> With the requirements defined, I was able to establish a clear visual hierarchy throughout the platform and keep all content and user interactions consistent across the board for web to mobile. While this analysis helped me create features that would make the platform stand out from our competitors, diving deeper into best practices for e-commerce web design led me to conclude the following:</p>
+        <p class="text-dark"> The research phase began with a competitive analysis of other eCommerce component distribution sites. The eCommerce sites that were analyzed (Digi-Key, Mouser, Avnet, Octopart, Newark Element 14 and Premier Farnell ) were all similar in theme and content, so it was essential to understand any differences in user experience when purchasing and sourcing components. Analyzing, then synthesizing the data helped me understand the ideal approach that Arrow.com should work towards in a lean Agile iterative process.</p>
+        <p class="text-dark"> With the requirements defined, I was able to establish a clear visual hierarchy throughout the buying journey and keep all content and user interactions consistent across the board for web to mobile. While this analysis helped me create an experience that would make the platform stand out from our competitors, diving deeper into best practices for e-commerce web design led me to conclude the following:</p>
         
         <div class="col-md-12 line-height-28 last-paragraph-no-margin wow fadeInUp" style="visibility: visible;animation-name: fadeInUp;">
             <ul class="list-style-6">
@@ -181,9 +198,9 @@
 
     <div class="span">
       <h3 class="ps-1"> BUYING SCENARIOS </h3>
-      <p class="text-dark"> Being tasked to update a sites purchasing journey can be complicated. As part of my process, I like to diagram all use cases in order to drive a proper strategy and approach under the constraints of the current system and data being fed to the user on the frontend. After validating the use cases , the next logical step would be to pull GA data to round out the weight of each use case pain point. This provides the team and stakeholders opportunity for prioritization if time and money are an issue. </p>
+      <p class="text-dark"> Being tasked to update a purchasing journey can be complicated. As part of my process, I like to diagram all use cases in order to drive a proper strategy and approach under the constraints of the current system and data being fed to the user on the frontend. After validating all use cases, I pulled GA data to provide weight to each use case. This provides the team and stakeholders opportunity for prioritization if time and/or money becomes an issue. </p>
 
-  	  <p class="text-dark"> Below are examples of high level purchasing journeys on Arrow.com along with the various types (request/call & limited stock/potential) of a-typical buying experiences and data supported, which can be due to legacy systems, bad data or business rules. Working with various stakeholders created  an understanding of knowledge and paths forward to limit confusing and friction on the frontend.</p>
+  	  <p class="text-dark"> Below are the various purchasing scenarios, along with the various types (request/call & limited stock/potential) of a-typical buying experiences and data supported, which can be due to legacy systems, bad data or business rules. Working with various stakeholders created an understanding of knowledge and paths forward to limit confusing and friction on the frontend.</p>
     
       <div class="row padding-30px-lr">
         <div class="image-fluid">
@@ -199,7 +216,7 @@
     </div>  
     <div class="span">
       <h3 class="ps-1">AVAIBLILITY MESSAGE CODES: DATA VS BUYING EXPERIENCE </h3>
-      <p class="text-dark"> Below is an example of all the message codes that Ageis and Unity housed for part and pricing information, some of which were presented to the frontend and some weren’t. One of the biggest challenges I faced was trying to align data being fed to the user, which came from two different systems (Unity and Ageis), and regional business ownership rules.</p>
+      <p class="text-dark"> Below is an example of all the message codes that Aegis and Unity, arrow.com’s inventory management system, housed for part and pricing information. Some of which were presented to the frontend and some weren’t. One of the biggest challenges I faced was trying to align the data being fed to the user to create a consistent journey.</p>
     
       <div class="row padding-30px-lr">
         <div class="image-fluid">
@@ -210,7 +227,8 @@
       
     <div class="span">
       <h3 class="ps-1">WIREFRAMING/SKETCHING </h3>
-      <p class="text-dark"> Bringing together business goals and proper UX strategy shaped the iterative MVP approach by creating primary and secondary purchasing experiences. Sketching and wireframing always helps me work through complex problems.</p>
+      <p class="text-dark"> With the preliminary research complete, I took the findings to help define requirements then proceeded to sketch out concepts. I enjoy this particular step in the design process because it allows me to work through complex journeys & experiences by putting down ideas rapidly, document questions & experiences I need to get feedback on, and drive a baseline experience from the user’s vantage point in order to user test. </p>
+      <p>Below visualizes me working through what can be considered primary and secondary purchasing information, how to organize the pricing info, purchasing scenarios, how will the user engage with the other inventories,  what is the least amount of information needed in the journey to add a part to cart, arrangement of package types and displaying availability message codes.</p>
     
       <div class="row padding-30px-lr">
         <div class="image-fluid">
@@ -220,7 +238,7 @@
     </div> 
 
     <div class="span">
-      <h3 class="ps-1"> RESEARCH FINDINGS </h3>
+      <h3 class="ps-1"> USER TESTING FINDINGS </h3>
       <p class="text-dark"> Bringing together business goals and proper UX strategy shaped the iterative MVP approach by creating primary and secondary purchasing experiences. In a 3-phase approach, below is an example of phase 2 of the product detail page implementation on Arrow.com.</p>
       <ul>
         <p> 100% of user found the new Single Buying Options (SBO) purchasing process more intuitive, efficient and effective when purchasing parts.</p>
