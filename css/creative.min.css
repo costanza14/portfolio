@@ -547,7 +547,7 @@ img::-moz-selection {
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
     #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
-        color: #fff
+        color: #9FEDD7
     }
     #mainNav.navbar-shrink {
         border-bottom: 1px solid #EDEAE5;
@@ -634,6 +634,39 @@ header.comcast {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
     background-image: url(../img/comcast.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+header.hh {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../img/hh.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+header.scale {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../img/scale.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+header.design {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../img/design.jpg);
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
