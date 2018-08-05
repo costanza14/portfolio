@@ -81,6 +81,11 @@ element.style {
     text-decoration: none;
 }
 
+#work-nav-bar a:hover {
+    color: #026670;
+    text-decoration: none;
+}
+
 .width-10 {
     width: 10%;
 }
