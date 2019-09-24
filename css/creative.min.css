@@ -93,6 +93,32 @@ width: auto;
 
 }
 
+.researchlp-img{
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../landingpage/img/testing2.png);
+    opacity: 1.0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+
+}
+
+.researchfp-img{
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../fixedprice/img/testing2.png);
+    opacity: 1.0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+
+}
+
 .solution-img{
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
@@ -117,6 +143,17 @@ width: auto;
     background-size: cover
 }
 
+.landing-img{
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../landingpage/img/lpbg.png);
+    opacity: 1.0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
 
 .container-phones{
 
